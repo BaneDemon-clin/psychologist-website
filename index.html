@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychologist Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1><!-- Psychologist Name -->Dr. Jane Doe</h1>
+        <p>Helping you manage stress, anxiety, and personal growth.</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#appointment">Book Appointment</a>
+        <a href="#faq">FAQs</a>
+        <a href="#quotes">Quotes</a>
+        <a href="#resources">Resources</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p><!-- Insert About Me Info Here -->
+            I am a licensed clinical psychologist with 10+ years of experience in helping individuals manage stress, anxiety, and major life transitions. My approach is holistic and client-centered.
+        </p>
+    </section>
+
+    <!-- Appointment Booking Form -->
+    <section id="appointment">
+        <h2>Book an Appointment</h2>
+        <form id="appointmentForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="message">Additional Notes:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <ul>
+            <li><strong>What is the first session like?</strong> The first session is focused on getting to know you and your goals.</li>
+            <li><strong>Do you accept insurance?</strong> Currently, I work with select insurance plans. Please contact me for more details.</li>
+            <li><strong>Is online therapy available?</strong> Yes, I offer both in-person and virtual sessions.</li>
+        </ul>
+    </section>
+
+    <!-- Quotes Section -->
+    <section id="quotes">
+        <h2>Motivational Quotes</h2>
+        <blockquote>"You don't have to control your thoughts. You just have to stop letting them control you." – Dan Millman</blockquote>
+        <blockquote>"Almost everything will work again if you unplug it for a few minutes, including you." – Anne Lamott</blockquote>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources">
+        <h2>Resources</h2>
+        <h3>Books</h3>
+        <ul>
+            <li><a href="https://www.goodreads.com/book/show/45046797-untamed" target="_blank">Untamed by Glennon Doyle</a></li>
+            <li><a href="https://www.goodreads.com/book/show/34536488-the-subtle-art-of-not-giving-a-f" target="_blank">The Subtle Art of Not Giving a F*ck by Mark Manson</a></li>
+        </ul>
+        <h3>Movies</h3>
+        <ul>
+            <li><a href="https://www.imdb.com/title/tt1375666/" target="_blank">Inside Out (2015)</a></li>
+            <li><a href="https://www.imdb.com/title/tt2584384/" target="_blank">The Mind Explained (Netflix)</a></li>
+        </ul>
+        <h3>News</h3>
+        <ul>
+            <li><a href="https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response" target="_blank">WHO: Global Mental Health Trends</a></li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:janedoe@example.com">janedoe@example.com</a></p>
+        <p>Address: 123 Wellness Lane, Calm City, ST 45678</p>
+        <p><a href="https://www.google.com/maps?q=123+Wellness+Lane,+Calm+City,+ST+45678" target="_blank">View on Google Maps</a></p>
+    </section>
+
+    <!-- Visitor Counter -->
+    <footer>
+        <p>Visitor Count: <span id="visitorCounter">Loading...</span></p>
+        <p>&copy; 2025 Dr. Jane Doe - All rights reserved</p>
+    </footer>
+</body>
+</html>
